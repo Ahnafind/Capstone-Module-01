@@ -60,6 +60,6 @@ Lalu untuk penghapusan stock pada gudang bisa menggunakan program disini.
 
 ### No.5 Exit dari Program
 
-### Untuk Lebih Jelasnya bisa dilihat di file Final_CP_Ahnaf022024.py.
+##### Untuk Lebih Jelasnya bisa dilihat di file Final_CP_Ahnaf022024.py.
 
 ## Terima Kasih

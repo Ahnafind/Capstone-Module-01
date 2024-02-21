@@ -8,12 +8,31 @@ Sebagai pengelola gudang diperlukan monitoring yang ketat sehingga kerugian (Bad
 Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah Gudang dimana pada Study Case Kali ini Gudang XYZ yang akan menjadi perusahaan menggunakan program ini.
 
 ## Berikut Menu Program Sederhana yang akan ditampilkan saat program dijalankan
-
+### MainMenu = True
+    while MainMenu != '5' :
+        print('\n --- Stock Data Gudang XYZ Logistik ---\n')
+        for i in Menu :
+            print(i)
+        MainMenu = input('Silahkan Ketik Menu: ')
+        if MainMenu == '1' :
+            Stock_Menu ()
+        elif MainMenu == '2' :
+            Create_Menu ()
+        elif MainMenu == '3' :
+            Update_Menu ()
+        elif MainMenu == '4' :
+            Delete_Menu ()
+        elif MainMenu == '5' :
+            print ('\n Terima Sudah Telah Melihat Stock Gudang XYZ Logistik')
+            break
+            
 ### No.1 Menampilan dan mencari barang pada Stock Gudang (Read)
-#### Terdapat 2 Opsi Yaitu :
-        print('\n --- Menambah Stock di Gudang ---')
-        print('1. Input Barang yang ingin di masukan ke dalam stock')
-        print('2. Kembali ke menu utama')
+#### Terdapat 3 Opsi Yaitu :
+        print ('\n --- Stock Menu Gudang XYZ Logistik')
+        print ('1. Stock Gudang XYZ Logistik Keseluruhan')
+        print ('2. Stock Gudang Berdasarkan Kriteria')
+        print ('3. Kembali ke Menu Utama')
+        StockMenu = input('Silahkan Pilih Menu Stock Gudang : ')
 ### No.2 Melakukan input Stock Gudang (Create)
 #### Terdapat 2 Opsi Yaitu :
         print('\n --- Menambah Stock di Gudang ---')
@@ -22,7 +41,7 @@ Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah G
         CreateMenu = input ('Silahkan Pilih Menu untuk Menambah Stock Gudang : ')
 
 ### No.3 Melakukan Update Stock Gudang (Update)
-#### Terdapat 3 Opsi Yaitu :
+#### Terdapat 2 Opsi Yaitu :
         print('\n --- Mengubah Stock di Gudang ---')
         print('1. Mengubah stock barang')
         print('2. Kembali ke menu utama')

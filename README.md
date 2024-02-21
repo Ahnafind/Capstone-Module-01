@@ -8,7 +8,7 @@ Sebagai pengelola gudang diperlukan monitoring yang ketat sehingga kerugian (Bad
 Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah Gudang dimana pada Study Case Kali ini Gudang XYZ yang akan menjadi perusahaan menggunakan program ini.
 
 ## Berikut Menu Program Sederhana yang akan ditampilkan saat program dijalankan
-### MainMenu = True
+MainMenu = True
     while MainMenu != '5' :
         print('\n --- Stock Data Gudang XYZ Logistik ---\n')
         for i in Menu :
@@ -27,6 +27,7 @@ Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah G
             break
             
 ### No.1 Menampilan dan mencari barang pada Stock Gudang (Read)
+Di Step ini program akan menjalankan fungsi untuk melihat Stock Gudang XYZ secara keseluruhan atau mencari barang berdasarkan kode.
 #### Terdapat 3 Opsi Yaitu :
         print ('\n --- Stock Menu Gudang XYZ Logistik')
         print ('1. Stock Gudang XYZ Logistik Keseluruhan')
@@ -34,6 +35,7 @@ Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah G
         print ('3. Kembali ke Menu Utama')
         StockMenu = input('Silahkan Pilih Menu Stock Gudang : ')
 ### No.2 Melakukan input Stock Gudang (Create)
+Kemudian disini program bermaksud untuk melakukan input barang saat adanya proses inboound pada Warehouse.
 #### Terdapat 2 Opsi Yaitu :
         print('\n --- Menambah Stock di Gudang ---')
         print('1. Input Barang yang ingin di masukan ke dalam stock')
@@ -41,6 +43,7 @@ Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah G
         CreateMenu = input ('Silahkan Pilih Menu untuk Menambah Stock Gudang : ')
 
 ### No.3 Melakukan Update Stock Gudang (Update)
+Kemudian disini program bermaksud untuk melakukan output barang saat adanya proses outbound pada Warehouse.
 #### Terdapat 2 Opsi Yaitu :
         print('\n --- Mengubah Stock di Gudang ---')
         print('1. Mengubah stock barang')
@@ -48,6 +51,7 @@ Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah G
         UpdateMenu = input ('Silahkan Pilih Menu untuk Update Data Stock Gudang : ')
 
 ### No.4 Melakukan Menghapus Stock Gudang (Delete)
+Lalu untuk penghapusan stock pada gudang bisa menggunakan program disini.
 #### Terdapat 3 Opsi Yaitu :
         print('\n --- Delete Stock di Gudang yang sudah tidak dibutuhkan ---')
         print('1. Menghapus stock barang')

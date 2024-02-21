@@ -8,7 +8,7 @@ Sebagai pengelola gudang diperlukan monitoring yang ketat sehingga kerugian (Bad
 Maka dibuatlah sebuah program sederhana untuk melakukan monitoring pada sebuah Gudang dimana pada Study Case Kali ini Gudang XYZ yang akan menjadi perusahaan menggunakan program ini.
 
 ## Berikut Menu Program Sederhana yang akan ditampilkan saat program dijalankan
-MainMenu = True
+### MainMenu = True
     while MainMenu != '5' :
         print('\n --- Stock Data Gudang XYZ Logistik ---\n')
         for i in Menu :
